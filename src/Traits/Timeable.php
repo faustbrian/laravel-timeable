@@ -11,9 +11,9 @@
 
 namespace DraperStudio\Timeable\Traits;
 
+use Carbon\Carbon;
 use DraperStudio\Timeable\Models\Time;
 use Illuminate\Database\Eloquent\Model;
-use Carbon\Carbon;
 
 /**
  * This is the timeable trait.
@@ -36,8 +36,8 @@ trait Timeable
     public function addTime($day, $open, $close)
     {
         $time = new Time([
-            'day' => $day,
-            'open' => new Carbon($open),
+            'day'   => $day,
+            'open'  => new Carbon($open),
             'close' => new Carbon($close),
         ]);
 

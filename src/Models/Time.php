@@ -20,14 +20,14 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Time extends Model
 {
-     /**
-     * @var array
-     */
+    /**
+      * @var array
+      */
      protected $guarded = ['id', 'created_at', 'updated_at'];
 
      /**
-     * @return mixed
-     */
+      * @return mixed
+      */
      public function timeable()
      {
          return $this->morphTo();

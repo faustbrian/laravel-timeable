@@ -12,10 +12,10 @@
 namespace DraperStudio\Timeable;
 
 /**
- * This is the package class.
- *
- * @author DraperStudio <hello@draperstudio.tech>
- */
+  * This is the package class.
+  *
+  * @author DraperStudio <hello@draperstudio.tech>
+  */
  class ServiceProvider extends \DraperStudio\ServiceProvider\ServiceProvider
  {
      /**
