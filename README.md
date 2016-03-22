@@ -1,4 +1,4 @@
-# :package_name
+#  Laravel Timeable
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -14,14 +14,13 @@
 Via Composer
 
 ``` bash
-$ composer require draperstudio/:package_name
+$ composer require draperstudio/laravel-timeable
 ```
 
 ## Usage
 
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+$model->addTime('Monday', '08:00', '18:00');
 ```
 
 ## Change log
@@ -51,17 +50,17 @@ If you discover any security related issues, please email hello@draperstudio.tec
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/DraperStudio/:package_name.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/DraperStudio/laravel-timeable.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/DraperStudio/:package_name/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/DraperStudio/:package_name.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/DraperStudio/:package_name.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/DraperStudio/:package_name.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/DraperStudio/Laravel-Timeable/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/DraperStudio/laravel-timeable.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/DraperStudio/laravel-timeable.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/DraperStudio/laravel-timeable.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/DraperStudio/:package_name
-[link-travis]: https://travis-ci.org/DraperStudio/:package_name
-[link-scrutinizer]: https://scrutinizer-ci.com/g/DraperStudio/:package_name/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/DraperStudio/:package_name
-[link-downloads]: https://packagist.org/packages/DraperStudio/:package_name
+[link-packagist]: https://packagist.org/packages/DraperStudio/laravel-timeable
+[link-travis]: https://travis-ci.org/DraperStudio/Laravel-Timeable
+[link-scrutinizer]: https://scrutinizer-ci.com/g/DraperStudio/laravel-timeable/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/DraperStudio/laravel-timeable
+[link-downloads]: https://packagist.org/packages/DraperStudio/laravel-timeable
 [link-author]: https://github.com/DraperStudio
 [link-contributors]: ../../contributors
