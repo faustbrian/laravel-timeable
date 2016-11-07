@@ -3,9 +3,9 @@
 namespace BrianFaust\Timeable\Traits;
 
 use Carbon\Carbon;
-use BrianFaust\Timeable\Models\Time;
+use BrianFaust\Timeable\Time;
 
-trait Timeable
+trait HasTimesTrait
 {
     public function times()
     {

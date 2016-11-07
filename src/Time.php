@@ -1,6 +1,6 @@
 <?php
 
-namespace BrianFaust\Timeable\Models;
+namespace BrianFaust\Timeable;
 
 use Illuminate\Database\Eloquent\Model;
 

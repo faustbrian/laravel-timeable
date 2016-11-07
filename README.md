@@ -10,6 +10,22 @@ $ composer require faustbrian/laravel-timeable
 
 ## Usage
 
+### Setup a Model
+``` php
+<?php
+
+namespace App;
+
+use BrianFaust\Timeables\HasTimesTrait;
+use BrianFaust\Timeables\Interfaces\HasTimes;
+use Illuminate\Database\Eloquent\Model;
+
+class Store extends Model implements HasTimes
+{
+    use HasTimesTrait;
+}
+```
+
 ``` php
 $model->addTime('Monday', '08:00', '18:00');
 ```

@@ -2,7 +2,9 @@
 
 namespace BrianFaust\Timeable;
 
-class ServiceProvider extends \BrianFaust\ServiceProvider\ServiceProvider
+use BrianFaust\ServiceProvider\ServiceProvider;
+
+class TimeableServiceProvider extends ServiceProvider
 {
     public function boot()
     {
