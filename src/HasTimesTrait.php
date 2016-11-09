@@ -1,6 +1,6 @@
 <?php
 
-namespace BrianFaust\Timeable\Traits;
+namespace BrianFaust\Timeable;
 
 use Carbon\Carbon;
 use BrianFaust\Timeable\Time;
