@@ -9,18 +9,20 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types=1);
+
 namespace BrianFaust\Timeable;
 
 use BrianFaust\ServiceProvider\ServiceProvider;
 
 class TimeableServiceProvider extends ServiceProvider
 {
-    public function boot()
+    public function boot(): void
     {
         $this->publishMigrations();
     }
 
-    public function getPackageName()
+    public function getPackageName(): string
     {
         return 'timeable';
     }
