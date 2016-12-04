@@ -11,20 +11,11 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of Laravel Timeable.
- *
- * (c) Brian Faust <hello@brianfaust.de>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace BrianFaust\Timeable;
 
-use BrianFaust\ServiceProvider\ServiceProvider;
+use BrianFaust\ServiceProvider\AbstractServiceProvider;
 
-class TimeableServiceProvider extends ServiceProvider
+class TimeableServiceProvider extends AbstractServiceProvider
 {
     public function boot(): void
     {
