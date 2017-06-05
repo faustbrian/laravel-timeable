@@ -1,8 +1,5 @@
 <?php
 
-
-declare(strict_types=1);
-
 /*
  * This file is part of Laravel Timeable.
  *
@@ -12,8 +9,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\Timeable;
+namespace BrianFaust\Timeable\Traits;
 
+use BrianFaust\Timeable\Models\Time;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
@@ -27,8 +25,8 @@ trait HasTimesTrait
     public function addTime($day, $open, $close): bool
     {
         $time = new Time([
-            'day'   => $day,
-            'open'  => new Carbon($open),
+            'day' => $day,
+            'open' => new Carbon($open),
             'close' => new Carbon($close),
         ]);
 

@@ -1,8 +1,5 @@
 <?php
 
-
-declare(strict_types=1);
-
 /*
  * This file is part of Laravel Timeable.
  *
@@ -14,13 +11,19 @@ declare(strict_types=1);
 
 namespace BrianFaust\Tests\Timeable;
 
-use BrianFaust\Timeable\ServiceProvider;
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
 
 abstract class AbstractTestCase extends AbstractPackageTestCase
 {
+    /**
+     * Get the service provider class.
+     *
+     * @param \Illuminate\Interfaces\Foundation\Application $app
+     *
+     * @return string
+     */
     protected function getServiceProviderClass($app): string
     {
-        return ServiceProvider::class;
+        return \BrianFaust\Timeable\TimeableServiceProvider::class;
     }
 }
