@@ -11,8 +11,8 @@
 
 namespace BrianFaust\Timeable\Traits;
 
-use BrianFaust\Timeable\Models\Time;
 use Carbon\Carbon;
+use BrianFaust\Timeable\Models\Time;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait HasTimesTrait
