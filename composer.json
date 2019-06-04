@@ -1,12 +1,12 @@
 {
-    "name": "faustbrian/laravel-timeable",
+    "name": "artisanry/timeable",
     "description": "Polymorphic times for Eloquent Models",
-    "keywords": ["laravel", "framework", "Laravel-timeable", "Laravel Timeable", "Brian Faust", "faustbrian"],
+    "keywords": ["laravel", "framework", "Laravel-timeable", "Laravel Timeable"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
+        "email": "hello@basecode.sh",
+        "homepage": "https://basecode.sh"
     }],
     "require": {
         "php": "^7.1",
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\Timeable\\": "src"
+            "Artisanry\\Timeable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\Timeable\\": "tests"
+            "Artisanry\\Tests\\Timeable\\": "tests"
         }
     },
     "config": {
@@ -38,7 +38,7 @@
         },
         "laravel": {
             "providers": [
-                "BrianFaust\\Timeable\\TimeableServiceProvider"
+                "Artisanry\\Timeable\\TimeableServiceProvider"
             ]
         }
     },
