@@ -1,17 +1,24 @@
 {
     "name": "artisanry/timeable",
     "description": "Polymorphic times for Eloquent Models",
-    "keywords": ["laravel", "framework", "Laravel-timeable", "Laravel Timeable"],
+    "keywords": [
+        "laravel",
+        "framework",
+        "Laravel-timeable",
+        "Laravel Timeable"
+    ],
     "license": "MIT",
-    "authors": [{
-        "name": "Brian Faust",
-        "email": "hello@basecode.sh",
-        "homepage": "https://basecode.sh"
-    }],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "homepage": "https://basecode.sh"
+        }
+    ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.2",
         "nesbot/carbon": "^1.22",
-        "illuminate/support": "^5.6"
+        "illuminate/support": "^5.8"
     },
     "require-dev": {
         "graham-campbell/testbench": "^5.0",
