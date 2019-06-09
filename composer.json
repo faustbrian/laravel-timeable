@@ -7,7 +7,7 @@
         "Laravel-timeable",
         "Laravel Timeable"
     ],
-    "license": "MIT",
+    "license": "MPL-2.0",
     "authors": [
         {
             "name": "Brian Faust",
